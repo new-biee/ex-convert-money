@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 1px solid white;
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+        }
+        td, th, tr{
+            border: 1px solid white;
+            border-collapse: collapse;
+            width: 25%;
+        }
+        button{
+            background-color: #8F82CF;
+            color: white;
+            border: 1px solid grey;
+            border-radius: 5%
+        }
+    </style>
+</head>
+<body>
+<h3>Chuyển đổi tiền tệ</h3>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currecncy</th>
+        <th>To Currency</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>
+            <input id="amount" type="text" name="money">
+        </td>
+        <td>
+            <select name="" id="money1" style="width: 60%">
+                <option value="1">VietNam</option>
+            </select>
+        </td>
+        <td>
+            <select name="" id="money2"  style="width: 60%">
+                <option value="23000">USD</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="convert()">Convert</button>
+        </td>
+    </tr>
+</table>
+<p id="result" style="color: blue">
+
+    <script src="js.js"></script>
+
+</body>
+</html>
